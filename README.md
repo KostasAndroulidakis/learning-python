@@ -18,7 +18,7 @@ This repository contains my learning materials and practice exercises as I prepa
 
 ## About Me
 
-I'm an aspiring Python developer currently focusing on:
+I'm an aspiring developer currently focusing on:
 - Learning Python programming fundamentals
 - Preparing for PCEP (Python Certified Entry-Level Programmer)
 - Studying for PCAP (Python Certified Associate Programmer)
