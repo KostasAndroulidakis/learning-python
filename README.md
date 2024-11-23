@@ -1,6 +1,6 @@
 # Python Certifications Learning Journey
 
-This repository contains my learning materials and practice exercises as I prepare for Python certifications (PCEP & PCAP) to transition into a Python development career.
+This repository contains my learning materials and practice exercises as I prepare for Python certifications (PCEP & PCAP).
 
 ## Repository Structure
 
