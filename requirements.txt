@@ -1,0 +1,2 @@
+python>=3.9
+jupyter>=1.0.0
