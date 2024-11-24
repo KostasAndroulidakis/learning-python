@@ -4,13 +4,13 @@ This repository contains my learning materials and practice exercises as I prepa
 
 ## Repository Structure
 
-- **PE1/**: Python Essentials 1 (PCEP) materials
+- **PE1/**: Python Essentials 1 (Aligned with PCEP-30-02)
   - Module 1: Introduction to Python and Computer Programming
   - Module 2: Data Types, Variables, Basic Input-Output Operations, Basic Operators
   - Module 3: Boolean Values, Conditional Execution, Loops, Lists and List Processing
   - Module 4: Functions, Tuples, Dictionaries, and Data Processing
 
-- **PE2/**: Python Essentials 2 (PCAP) materials
+- **PE2/**: Python Essentials 2 (Aligned with PCAP-31-03)
   - Module 1: Modules, Packages, and PIP
   - Module 2: Strings, String and List Methods
   - Module 3: Object-Oriented Programming
@@ -34,7 +34,6 @@ I'm an aspiring developer currently focusing on:
 1. Master Python fundamentals
 2. Obtain PCEP certification
 3. Obtain PCAP certification
-4. Secure a Python development position
 
 
 ## Contact
