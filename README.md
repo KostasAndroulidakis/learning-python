@@ -1,6 +1,6 @@
 # Python Learning Journey
 
-This repository contains my learning materials and practice exercises as I prepare for Python certifications:
+This repository contains my labs and practice exercises as I prepare for Python certifications:
 - PCEP™ – Certified Entry-Level Python Programmer
 - PCAP™ – Certified Associate Python Programmer 
 
