@@ -20,7 +20,7 @@ This repository contains my labs and practice exercises as I prepare for Python 
 
 ## Learning Resources
 
-- **OpenEDG/**: Python Institute:
+- **OpenEDG/**: Python Institute
   - Python Essentials 1 (Aligned with PCEP-30-02)
   - Python Essentials 2 (Aligned with PCAP-31-03)
 - Various coding exercises and projects
