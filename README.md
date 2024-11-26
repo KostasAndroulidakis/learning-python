@@ -1,6 +1,6 @@
-# Python Certification Path
+# Python Certification Journey
 
-Python curriculum and exercises for certifications:
+This repository contains Python curriculum and exercises to prepare for certifications:
 - PCEP™ – Certified Entry-Level Python Programmer
 - PCAP™ – Certified Associate Python Programmer
 
@@ -25,7 +25,7 @@ Python curriculum and exercises for certifications:
 - **OpenEDG Python Institute**:
   - Python Essentials 1 (Aligned with PCEP-30-02)
   - Python Essentials 2 (Aligned with PCAP-31-03)
-- Practise exercises
+- Practice exercises
 
 
 ## Contact
