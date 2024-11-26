@@ -1,33 +1,34 @@
-# Python Learning Journey
+# Python Certification Path
 
-This repository documents my journey in mastering Python programming as I prepare for certifications:
+Python curriculum and exercises for certifications:
 - PCEP™ – Certified Entry-Level Python Programmer
 - PCAP™ – Certified Associate Python Programmer
+
 
 ## Repository Structure
 
 - `PE1`: Python Essentials 1
-  - `Module 1`: Introduction to Python and Computer Programming
-  - `Module 2`: Data Types, Variables, Basic Input/Output Operations, and Basic Operators
-  - `Module 3`: Boolean Values, Conditional Execution, Loops, Lists, and List Processing
-  - `Module 4`: Functions, Tuples, Dictionaries, Data Processing and Exceptions
+  - `module1`: Introduction to Python and Computer Programming
+  - `module2`: Data Types, Variables, Basic Input/Output Operations, Basic Operators
+  - `module3`: Boolean Values, Conditional Execution, Loops, Lists, List Processing
+  - `module4`: Functions, Tuples, Dictionaries, Data Processing, Exceptions
 
 - `PE2`: Python Essentials 2
-  - `Module 1`: Modules, Packages, and PIP
-  - `Module 2`: Strings, String and List Methods, and Exceptions
-  - `Module 3`: Object-Oriented Programming
-  - `Module 4`: Miscellaneous
+  - `module1`: Modules, Packages, PIP
+  - `module2`: Strings, String and List Methods, Exceptions
+  - `module3`: Object-Oriented Programming
+  - `module4`: Miscellaneous
+
 
 ## Learning Resources
 
 - **OpenEDG Python Institute**:
   - Python Essentials 1 (Aligned with PCEP-30-02)
   - Python Essentials 2 (Aligned with PCAP-31-03)
-- Supplementary coding exercises
+- Practise exercises
 
-## Let's Connect
 
-Feel free to connect! I'm always excited to collaborate and exchange ideas in the tech community.
+## Contact
 
 - GitHub: [@KostasAndroulidakis](https://github.com/KostasAndroulidakis)
 - Email: [kostasandroulidakis.pro@gmail.com](mailto:kostasandroulidakis.pro@gmail.com)
