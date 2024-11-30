@@ -3,6 +3,8 @@ from random import randrange
 # Define constant values 
 line = "+-------+-------+-------+"
 empty_line = "|       |       |       |"
+computer = "X"
+user = "O"
 
 # Define initial board
 board = [
