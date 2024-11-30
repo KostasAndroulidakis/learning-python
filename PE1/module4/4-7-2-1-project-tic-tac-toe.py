@@ -1,6 +1,6 @@
 from random import randrange
 
-# Define constant values 
+# Constants
 LINE = "+-------+-------+-------+"
 EMPTY_LINE = "|       |       |       |"
 COMPUTER = "X"
@@ -61,11 +61,23 @@ def make_list_of_free_fields(board):
                 free_fields.append((row, column))
     return free_fields
 
-
+# Check for victory
 def victory_for(board, sign):
-    # The function analyzes the board's status in order to check if 
-    # the player using 'O's or 'X's has won the game
-    pass
+    # Check rows
+    for row in range(3):
+        if all(board[row][column] == sign for column in range(3)):
+            return True
+    # Check columns
+    for column in range(3):
+        if all(board[row][column] == sign for row in range(3)):
+            return True
+    # Check diagonals
+    if board[0][0] == sign and board[1][1] == sign and board[2][2] == sign:
+        return True
+    if board[0][2] == sign and board[1][1] == sign and board[2][0] == sign:
+        return True
+    return False
+
 
 
 def draw_move(board):
