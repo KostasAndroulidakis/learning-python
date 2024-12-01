@@ -83,3 +83,22 @@ def draw_move(board):
     row, column = random_tuple
     # computer's move
     board[row][column] = "X"
+
+# game main loop
+while True:   # continue until return or break
+    display_board(board)
+    # User move
+    enter_move(board)
+    if victory_for(board, USER):
+        print("You won!")
+        break
+    # Computer move
+    draw_move(board)
+    if victory_for(board, COMPUTER):
+        display_board(board)
+        print("Computer won!")
+        break
+    # check for tie
+    elif not make_list_of_free_fields(board):
+        print("Tie!")
+        break
