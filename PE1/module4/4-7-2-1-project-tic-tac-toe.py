@@ -90,6 +90,7 @@ while True:   # continue until return or break
     # User move
     enter_move(board)
     if victory_for(board, USER):
+        display_board(board)
         print("You won!")
         break
     # Computer move
@@ -100,5 +101,6 @@ while True:   # continue until return or break
         break
     # check for tie
     elif not make_list_of_free_fields(board):
+        display_board(board)
         print("Tie!")
         break
