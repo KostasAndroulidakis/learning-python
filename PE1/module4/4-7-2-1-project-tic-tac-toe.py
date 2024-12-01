@@ -38,13 +38,13 @@ def enter_move(board):
                 continue
             # Calculate row and column from move
             row = (move-1) // 3  
-            col = (move-1) % 3
+            column = (move-1) % 3
             # Check if position is already taken
-            if board[row][col] in ['O','X']:
+            if board[row][column] in ['O','X']:
                 print("That position is already taken!")
                 continue
             # Make the move
-            board[row][col] = 'O'
+            board[row][column] = 'O'
             display_board(board)
             return
         except ValueError:
@@ -78,8 +78,13 @@ def victory_for(board, sign):
         return True
     return False
 
-
-
 def draw_move(board):
-    # The function draws the computer's move and updates the board.
-    pass
+    # check available free fields
+    free_fields = make_list_of_free_fields(board)
+    # choose a random number
+    random_number = randrange(len(free_fields))
+    random_tuple = free_fields[random_number]
+    row, column = random_tuple
+    # computer's move
+    board[row][column] = "X"
+    return board
