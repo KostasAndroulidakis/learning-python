@@ -10,7 +10,7 @@ Labs and practice exercises for Python certifications:
 - **OpenEDG Python Institute**:
   - Python Essentials 1 (Aligned with PCEP-30-02)
   - Python Essentials 2 (Aligned with PCAP-31-03)
-- Practice exercises
+- Practise exercises
 
 
 ## Structure
@@ -28,7 +28,7 @@ Labs and practice exercises for Python certifications:
     - `module3`: Object-Oriented Programming
     - `module4`: Miscellaneous
 
-- `practice/`: Additional exercises
+- `practise/`: Additional exercises
   - `PE1`: Extra exercises for PCEP
   - `PE2`: Extra exercises for PCAP
 
