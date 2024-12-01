@@ -7,7 +7,7 @@ This repository contains Python labs and exercises to prepare for certifications
 
 ## Repository Structure
 
-- `openedg/`: Official OpenEDG curriculum
+- `curriculum/`: Official OpenEDG curriculum
   - `PE1`: Python Essentials 1
     - `module1`: Introduction to Python and Computer Programming
     - `module2`: Data Types, Variables, Basic Input/Output Operations, Basic Operators
@@ -20,7 +20,7 @@ This repository contains Python labs and exercises to prepare for certifications
     - `module3`: Object-Oriented Programming
     - `module4`: Miscellaneous
 
-- `exercises/`: Additional practice materials
+- `practice/`: Additional practice materials
   - `PE1`: Extra exercises for Python Essentials 1
     - `module1`: Extra practice on Introduction to Python
     - `module2`: Extra practice on Data Types and Basic Operations
