@@ -17,15 +17,13 @@ board = [
 board[1][1] = "X"
 
 def display_board(board):
+    # Display 3x3 game board with grid lines
     for row in range(3):
         print(LINE)
         print(EMPTY_LINE)
         print(f"|   {board[row][0]}   |   {board[row][1]}   |   {board[row][2]}   |")
         print(EMPTY_LINE)
     print(LINE)
-
-# Call the function to display initial board
-display_board(board)
 
 def enter_move(board):
     while True:
@@ -50,10 +48,8 @@ def enter_move(board):
         except ValueError:
             print("That's not a valid number!")
 
-enter_move(board)
-
 def make_list_of_free_fields(board):
-    # prepare a list for free fields
+    # Return list of (row, col) tuples for empty squares
     free_fields = []
     for row in range(3):
         for column in range(3):
@@ -87,4 +83,3 @@ def draw_move(board):
     row, column = random_tuple
     # computer's move
     board[row][column] = "X"
-    return board
