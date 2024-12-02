@@ -12,11 +12,11 @@ def mysplit(strng):
     else:
         for char in strng:
             if not char.isspace():
-                # add last word after the end of the string
                 word = word + char          
             if char.isspace():
                 words.append(word)
                 word = ""
+    # add last word after the end of the string
     words.append(word)
     return words
 
