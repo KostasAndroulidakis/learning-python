@@ -15,7 +15,7 @@ Labs and practice exercises for Python certifications:
 
 ## Structure
 
-- `curriculum/`: Official OpenEDG curriculum
+- `curriculum`: Official OpenEDG curriculum
   - `PE1`: Python Essentials 1
     - `module1`: Introduction to Python and Computer Programming
     - `module2`: Data Types, Variables, Basic Input/Output Operations, Basic Operators
@@ -28,7 +28,7 @@ Labs and practice exercises for Python certifications:
     - `module3`: Object-Oriented Programming
     - `module4`: Miscellaneous
 
-- `practise/`: Additional exercises
+- `practice`: Additional exercises
   - `PE1`: Extra exercises for PCEP
   - `PE2`: Extra exercises for PCAP
 
