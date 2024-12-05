@@ -30,3 +30,9 @@ def check_rows(grid):
         if set(row) != correct_digits:
             return False
     return True
+
+def check_columns(grid):
+    for row in zip(*grid):
+        if set(row) != correct_digits:
+            return False
+    return True
