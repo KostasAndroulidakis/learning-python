@@ -36,3 +36,14 @@ def check_columns(grid):
         if set(row) != correct_digits:
             return False
     return True
+
+def check_subsquares(grid):
+    for row in range(0, 9, 3):
+        for col in range(0, 9, 3):
+            subsquare = set()
+            for i in range(row, row + 3):
+                for j in range(col, col + 3):
+                    subsquare.add(grid[i][j])
+            if subsquare != correct_digits:
+                return False
+    return True
