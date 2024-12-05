@@ -1,31 +1,31 @@
-# Prepare an empty list for user input
+# Validate 9x9 Sudoku grid
+
 user_input = []
-
-# Ask user for input
 sample_input = input("Enter sudoku: ")
-
-# Split string into list of strings
 rows = sample_input.split() 
 
 # Convert each string to list of integers
 for row in rows:
     user_input.append([int(digit) for digit in row])
 
-# Check digit in a row
+# Valid Sudoku digits
 CORRECT_DIGITS = set(range(1, 10))
 
+# Verify each row contains all digits 1-9
 def check_rows(grid):
     for row in grid:
         if set(row) != CORRECT_DIGITS:
             return False
     return True
 
+# Verify each column contains all digits 1-9
 def check_columns(grid):
     for row in zip(*grid):
         if set(row) != CORRECT_DIGITS:
             return False
     return True
 
+# Verify each 3x3 subsquare contains all digits 1-9
 def check_subsquares(grid):
     for row in range(0, 9, 3):
         for col in range(0, 9, 3):
@@ -37,6 +37,7 @@ def check_subsquares(grid):
                 return False
     return True
 
+# Validate Sudoku grid against all rules
 def triple_check(grid):
     return check_rows(grid) and check_columns(grid) and check_subsquares(grid)
 
