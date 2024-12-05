@@ -8,3 +8,9 @@ SUDOKU = [[2,9,5,7,4,3,8,6,1],
           [7,6,3,5,2,4,1,8,9],
           [9,2,8,6,7,1,3,5,4],
           [1,5,4,9,3,8,6,7,2]]
+
+# Prepare an empty list for user input
+user_input = []
+
+# Ask user for input
+sample_input = input("Enter sudoku: ")
