@@ -14,3 +14,11 @@ user_input = []
 
 # Ask user for input
 sample_input = input("Enter sudoku: ")
+
+# Split string into list of strings
+rows = sample_input.split() 
+
+# Convert each string to list of integers
+for row in rows:
+    user_input.append([int(digit) for digit in row])
+    
