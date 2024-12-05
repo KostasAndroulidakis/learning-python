@@ -12,17 +12,17 @@ for row in rows:
     user_input.append([int(digit) for digit in row])
 
 # Check digit in a row
-correct_digits = set(range(1, 10))
+CORRECT_DIGITS = set(range(1, 10))
 
 def check_rows(grid):
     for row in grid:
-        if set(row) != correct_digits:
+        if set(row) != CORRECT_DIGITS:
             return False
     return True
 
 def check_columns(grid):
     for row in zip(*grid):
-        if set(row) != correct_digits:
+        if set(row) != CORRECT_DIGITS:
             return False
     return True
 
@@ -33,7 +33,7 @@ def check_subsquares(grid):
             for i in range(row, row + 3):
                 for j in range(col, col + 3):
                     subsquare.add(grid[i][j])
-            if subsquare != correct_digits:
+            if subsquare != CORRECT_DIGITS:
                 return False
     return True
 
