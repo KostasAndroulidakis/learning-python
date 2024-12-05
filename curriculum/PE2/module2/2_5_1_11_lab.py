@@ -21,4 +21,12 @@ rows = sample_input.split()
 # Convert each string to list of integers
 for row in rows:
     user_input.append([int(digit) for digit in row])
-    
+
+# Check digit in a row
+correct_digits = set(range(1, 10))
+
+def check_rows(grid):
+    for row in grid:
+        if set(row) != correct_digits:
+            return False
+    return True
