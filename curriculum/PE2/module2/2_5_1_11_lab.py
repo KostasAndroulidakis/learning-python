@@ -47,3 +47,8 @@ def check_subsquares(grid):
             if subsquare != correct_digits:
                 return False
     return True
+
+def triple_check(grid):
+    return check_rows(grid) and check_columns(grid) and check_subsquares(grid)
+
+print("Yes" if triple_check(user_input) else "No")
