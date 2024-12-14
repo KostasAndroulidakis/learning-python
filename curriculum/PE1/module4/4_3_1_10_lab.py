@@ -1,3 +1,9 @@
+# Define constants
+METERS_PER_MILE = 1609.344
+LITERS_PER_GALLON = 3.785411784
+DISTANCE_IN_MILES = 100000 / METERS_PER_MILE
+KILOMETERS_PER_MILE = METERS_PER_MILE / 1000
+
 def liters_100km_to_miles_gallon(liters):
 #
 # Write your code here.
