@@ -4,10 +4,12 @@ LITERS_PER_GALLON = 3.785411784
 DISTANCE_IN_MILES = 100000 / METERS_PER_MILE
 KILOMETERS_PER_MILE = METERS_PER_MILE / 1000
 
-def liters_100km_to_miles_gallon(liters):
-#
-# Write your code here.
-#
+def liters_100km_to_miles_gallon(liters):   
+    # Convert litters to gallons
+    gallons = liters / LITERS_PER_GALLON
+    # Get Miles per Gallon
+    miles_per_gallon = DISTANCE_IN_MILES * (1 / gallons)
+    return miles_per_gallon
 
 def miles_gallon_to_liters_100km(miles):
 #
