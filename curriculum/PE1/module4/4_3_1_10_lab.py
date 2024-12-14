@@ -12,9 +12,11 @@ def liters_100km_to_miles_gallon(liters):
     return miles_per_gallon
 
 def miles_gallon_to_liters_100km(miles):
-#
-# Write your code here
-#
+    # Convert miles to kilometers
+    kilometers = miles * KILOMETERS_PER_MILE
+    # Get liters per 100km
+    liters_per_100km = (100 * LITERS_PER_GALLON) / kilometers
+    return liters_per_100km
 
 print(liters_100km_to_miles_gallon(3.9))
 print(liters_100km_to_miles_gallon(7.5))
