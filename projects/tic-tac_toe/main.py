@@ -1,3 +1,7 @@
+# OpenEDG Python Institute
+# Python Essentials 1
+# 4.7.2.1 Project: Tic-tac-toe
+
 from random import randrange
 
 # Constants
