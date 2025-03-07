@@ -6,7 +6,7 @@ Minesweeper is a single-player video game played on a board containing hidden bo
     
 Two fields are neighbours if they share a side or a corner. For example, in the image below, neighbours of the black field are marked in gray.
 
-![image.png](attachment:image.png)
+![Image](https://github.com/user-attachments/assets/f9f89bb7-64c6-4a94-9792-109d8ccef30e)
 
 You are given a square board with N rows and N columns (both numbered from 0 to N-1). The upper left field is located at (0,0). M bombs (numbered from 0 to M-1) are hidden on the board. The K-th bomb is located in row R[K] and column c[K].
 
