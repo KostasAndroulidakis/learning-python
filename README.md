@@ -1,14 +1,13 @@
-# Learning Pyhton
+# Learning Python
 
-Labs and practice exercises for Python certifications:
 - PCEP™ – Certified Entry-Level Python Programmer
 - PCAP™ – Certified Associate Python Programmer
 
 
 ## Structure
 
-- `concepts`
-- `projects`
+- `concepts`: Progressive Jupyter notebooks covering Python fundamentals with executable examples.
+- `projects`: Stand-alone Python applications demonstrating practical implementation of programming concepts in working software.
 
 
 ## Resources
