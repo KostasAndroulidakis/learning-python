@@ -1,8 +1,14 @@
-# Python Institute Certification Labs
+# Learning Pyhton
 
 Labs and practice exercises for Python certifications:
 - PCEP™ – Certified Entry-Level Python Programmer
 - PCAP™ – Certified Associate Python Programmer
+
+
+## Structure
+
+- `concepts`
+- `projects`
 
 
 ## Resources
@@ -10,27 +16,14 @@ Labs and practice exercises for Python certifications:
 - **OpenEDG Python Institute**:
   - Python Essentials 1 (Aligned with PCEP-30-02)
   - Python Essentials 2 (Aligned with PCAP-31-03)
-- Practise exercises
-
-
-## Structure
-
-- `curriculum`: Official OpenEDG curriculum
-  - `PE1`: Python Essentials 1
-    - `module1`: Introduction to Python and Computer Programming
-    - `module2`: Data Types, Variables, Basic Input/Output Operations, Basic Operators
-    - `module3`: Boolean Values, Conditional Execution, Loops, Lists, List Processing
-    - `module4`: Functions, Tuples, Dictionaries, Data Processing, Exceptions
-
-  - `PE2`: Python Essentials 2
-    - `module1`: Modules, Packages, PIP
-    - `module2`: Strings, String and List Methods, Exceptions
-    - `module3`: Object-Oriented Programming
-    - `module4`: Miscellaneous
-
-- `practice`: Additional exercises
-  - `PE1`: Extra exercises for PCEP
-  - `PE2`: Extra exercises for PCAP
+- **Khan Academy**:
+  - Intro to Computer Science - Python
+- **FreeCodeCamp**:
+  - Scientific Computing with Python
+- **John V. Guttag**:
+  - Introduction to Computation and Programming Using Python
+- **Various Exercises**:
+  - 
 
 
 ## Contact
