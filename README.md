@@ -21,8 +21,8 @@
   - Scientific Computing with Python
 - **John V. Guttag**:
   - Introduction to Computation and Programming Using Python
-- **Various Exercises**:
-  - Most of them created by prompting ChatGPT.
+- **School of Certified Professionals (SCP)**:
+  - Python Essentials Course
 
 
 ## Contact

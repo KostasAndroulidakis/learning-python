@@ -1,3 +1,5 @@
+# 2.5.1.11 LAB: Sudoku
+
 # Validate 9x9 Sudoku grid
 
 user_input = []
