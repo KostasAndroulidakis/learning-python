@@ -23,7 +23,7 @@ Labs and practice exercises for Python certifications:
 - **John V. Guttag**:
   - Introduction to Computation and Programming Using Python
 - **Various Exercises**:
-  - 
+  - Most of them created by prompting ChatGPT.
 
 
 ## Contact
