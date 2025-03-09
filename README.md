@@ -2,14 +2,15 @@
 
 <img src="https://images.credly.com/size/680x680/images/b790eb12-ecb3-4b94-89be-61aa40c92e7c/image.png" width="150" align="right" alt="PCEP Certified Badge">
 
-- PCEP™ – Certified Entry-Level Python Programmer
-- PCAP™ – Certified Associate Python Programmer
+A systematic approach to Python programming from fundamentals to practical applications.
 
 [![PCEP Certified](https://img.shields.io/badge/PCEP-Certified-blue)](https://pythoninstitute.org/pcep)
 [![PCAP In Progress](https://img.shields.io/badge/PCAP-In%20Progress-orange)](https://pythoninstitute.org/pcap)
 
+- PCEP™ – Certified Entry-Level Python Programmer
+- PCAP™ – Certified Associate Python Programmer
 
-A systematic approach to Python programming from fundamentals to practical applications.
+
 
 
 ## Structure
@@ -37,3 +38,5 @@ A systematic approach to Python programming from fundamentals to practical appli
 
 - GitHub: [@KostasAndroulidakis](https://github.com/KostasAndroulidakis)
 - Email: [kostasandroulidakis.pro@gmail.com](mailto:kostasandroulidakis.pro@gmail.com)
+
+[@KostasAndroulidakis](https://github.com/KostasAndroulidakis) | [kostasandroulidakis.pro@gmail.com](mailto:kostasandroulidakis.pro@gmail.com)
