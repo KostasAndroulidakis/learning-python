@@ -1,13 +1,21 @@
 # Learning Python
 
+<img src="https://images.credly.com/size/680x680/images/b790eb12-ecb3-4b94-89be-61aa40c92e7c/image.png" width="150" align="right" alt="PCEP Certified Badge">
+
 - PCEP™ – Certified Entry-Level Python Programmer
 - PCAP™ – Certified Associate Python Programmer
+
+[![PCEP Certified](https://img.shields.io/badge/PCEP-Certified-blue)](https://pythoninstitute.org/pcep)
+[![PCAP In Progress](https://img.shields.io/badge/PCAP-In%20Progress-orange)](https://pythoninstitute.org/pcap)
+
+
+A systematic approach to Python programming from fundamentals to practical applications.
 
 
 ## Structure
 
-- `concepts`: Progressive Jupyter notebooks covering Python fundamentals with executable examples.
-- `projects`: Stand-alone Python applications demonstrating practical implementation of programming concepts in working software.
+- `concepts`: Jupyter notebooks demonstrating Python principles with executable examples
+- `projects`: Stand-alone applications showcasing practical implementations
 
 
 ## Resources
