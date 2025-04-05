@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 
-import math
+from typing import Self
 
 
 class Rectangle:
 
-	def __init__(self: Rectangle,
+	def __init__(self,
 		width: float,
 		height: float,
 	):
@@ -16,8 +16,8 @@ class Rectangle:
 	def __repr__(self) -> str:
 		return f"Rectangle({self.width}, {self.height})"
 
-	def __add__(self: Rectangle, other: Rectangle) -> Rectangle:
-		return Rectangle(
+	def __add__(self, other: Self) -> Self:
+		return self.__class__(
 			self.width + other.width,
 			self.height + other.height,
 		)
