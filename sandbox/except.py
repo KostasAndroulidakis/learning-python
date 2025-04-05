@@ -6,4 +6,4 @@ def divide(a: int | float, b: int | float) -> float:
 		return a / b
 
 	except ZeroDivisionError:
-		return float("inf") if a >= 0 else float("-inf")
+		return float("inf") if a >= b else float("-inf")
