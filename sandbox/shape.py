@@ -13,8 +13,6 @@ class Rectangle:
 		self.width = width
 		self.height = height
 
-		self.angle = math.pi / 2
-
 	def __repr__(self) -> str:
 		return f"Rectangle({self.width}, {self.height})"
 
@@ -25,9 +23,10 @@ class Rectangle:
 		)
 
 
+	@property
 	def perimeter(self: Rectangle) -> float:
 		return 2 * (self.width + self.height)
 
+	@property
 	def area(self: Rectangle) -> float:
 		return self.width * self.height
-
