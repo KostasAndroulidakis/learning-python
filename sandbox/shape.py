@@ -14,7 +14,7 @@ class Rectangle:
 		self.height = height
 
 	def __repr__(self) -> str:
-		return f"Rectangle({self.width}, {self.height})"
+		return f"{self.__class__.__name__}({self.width}, {self.height})"
 
 	def __add__(self, other: Self) -> Self:
 		return self.__class__(
@@ -24,9 +24,42 @@ class Rectangle:
 
 
 	@property
-	def perimeter(self: Rectangle) -> float:
+	def perimeter(self) -> float:
 		return 2 * (self.width + self.height)
 
 	@property
-	def area(self: Rectangle) -> float:
+	def area(self) -> float:
+		return self.width * self.height
+
+
+class Square(Rectangle):
+
+	def __init__(self,
+		side: float,
+	):
+		self.width = side
+		self.height = side
+
+
+class DummySquare:
+
+	def __init__(self,
+		side: float
+	):
+		self.width = side
+		self.height = side
+
+	def __repr__(self) -> str:
+		return f"Square({self.width})"
+
+	def __add__(self, other: Self) -> Self:
+		return self.__class__(self.width + other.height)
+
+
+	@property
+	def perimeter(self) -> float:
+		return 2 * (self.width + self.height)
+
+	@property
+	def area(self) -> float:
 		return self.width * self.height
