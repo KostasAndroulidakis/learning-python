@@ -31,3 +31,7 @@ wheels/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# VS Code files
+.vscode/
+.markdownlint.json

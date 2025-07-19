@@ -1,16 +1,22 @@
 # Learning Python
 
+<img src="pcep.png" alt="PCEP Certification" width="150"> <img src="pcap.png" alt="PCAP Certification" width="150">
+
 A systematic approach to Python programming from fundamentals to practical applications.
 
 ## Certifications
-- **Achieved**: PCEP - Certified Entry-Level Python Programmer
-- **In Progress**: PCAP - Certified Associate Python Programmer
+
+- **PCEP - Certified Entry-Level Python Programmer** by OpenEDG Python Institute
+- **PCAP - Certified Associate Python Programmer** by OpenEDG Python Institute
+- **Scientific Computing with Python** by FreeCodeCamp
 
 ## Structure
+
 - `concepts/`: Jupyter notebooks demonstrating Python principles
 - `projects/`: Applications showcasing practical implementations
 
 ## Resources
+
 - **OpenEDG Python Institute**:
   - Python Essentials 1 (Aligned with PCEP)
   - Python Essentials 2 (Aligned with PCAP)
@@ -24,5 +30,6 @@ A systematic approach to Python programming from fundamentals to practical appli
   - Python Essentials Course
 
 ## Contact
+
 - GitHub: [@KostasAndroulidakis](https://github.com/KostasAndroulidakis)
 - Email: [kostasandroulidakis.pro@gmail.com](mailto:kostasandroulidakis.pro@gmail.com)
