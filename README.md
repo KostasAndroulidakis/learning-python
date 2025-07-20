@@ -4,7 +4,7 @@ A systematic approach to Python programming from fundamentals to practical appli
 
 ## Certifications
 
-<img src="pcep.png" alt="PCEP Certification" width="150"> <img src="pcap.png" alt="PCAP Certification" width="150">
+<img src="pcep.png" alt="PCEP Certification" width="150"> <img src="pcap.png" alt="PCAP Certification" width="150"> <img src="scwp.png" alt="Scientific Computing with Python" width="150">
 
 - **PCEP - Certified Entry-Level Python Programmer** by OpenEDG Python Institute
 - **PCAP - Certified Associate Python Programmer** by OpenEDG Python Institute
